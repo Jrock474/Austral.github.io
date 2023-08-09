@@ -20,5 +20,11 @@ lightbox.addEventListener('click', e => {
     lightbox.classList.remove('active')
 })
 
+for(i=0; i < images.length; i++){
+    images[i].id = i + 1
+}
+
+
+
 
     

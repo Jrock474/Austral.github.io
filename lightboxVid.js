@@ -25,4 +25,5 @@ lightbox.addEventListener('click', e => {
 for(i = 0; i < videos.length; i++){
     videos[i].id = i + 1
 }
-console.log(videos)
+
+
